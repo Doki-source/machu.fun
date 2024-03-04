@@ -1,0 +1,146 @@
+@font-face {
+  font-family: MicroExtend;
+  src: url("/fonts/MicroExtendFLF-Bold.ttf");
+  font-weight: bold;
+}
+
+.body {
+  display: grid;
+  background-image: url("../img/travisykyle.gif");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0px;
+  align-content: space-evenly;
+}
+
+.machufun {
+  text-shadow: black 3px 3px 3px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: Microextend;
+  font-size: 290%;
+  padding-top: 20px;
+}
+
+.contenedor {
+  width: 365px;
+  height: 238px;
+  background-color: rgba(0, 0, 0, 0.58);
+  padding: 17px;
+  border-radius: 58px;
+  box-shadow: rgba(0, 0, 0, 0.75) 2px 20px 20px 5px;
+  position: relative;
+  top: -310px;
+  background-clip: content-box;
+}
+
+.cartifoto {
+  width: 100%;
+  max-width: 100px;
+  position: absolute;
+  top: 41%;
+  left: 50%;
+  transform: translate(-40%, 0%);
+}
+
+.instagramlogo {
+  width: 100%;
+  max-width: 20%;
+  position: absolute;
+  top: 81%;
+  left: 17%;
+  transform: translate(-40%, -70%);
+}
+
+.twitterlogo {
+  width: 100%;
+  max-width: 53px;
+  position: absolute;
+  top: 26%;
+  left: 81.1%;
+  transform: translate(-40%, -70%);
+}
+
+.tiktoklogo {
+  width: 100%;
+  max-width: 60px;
+  position: absolute;
+  top: 81.1%;
+  left: 50%;
+  transform: translate(-40%, -70%);
+}
+
+.youtubelogo {
+  width: 100%;
+  max-width: 66px;
+  position: absolute;
+  top: 26%;
+  left: 17%;
+  transform: translate(-40%, -70%);
+}
+
+.twitchlogo {
+  width: 100%;
+  max-width: 100px;
+  position: absolute;
+  top: 29%;
+  left: 50%;
+  transform: translate(-40%, -70%);
+}
+
+.spotifylogo {
+  width: 100%;
+  max-width: 67px;
+  position: absolute;
+  top: 82%;
+  left: 80%;
+  transform: translate(-40%, -70%);
+}
+
+.parentallogo {
+  width: 100%;
+  max-width: 219px;
+  position: absolute;
+  top: 50%;
+  left: 26%;
+}
+
+@media only screen and (max-width: 767px) {
+  .body {
+      background-image: url("../imgcelular/b286bf137be1fc2ebed96b54761d31a1.gif");
+      background-position: 80% center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  
+  .contenedor {
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.58);
+    padding: 14px;
+    border-radius: 68px;
+    box-shadow: rgba(0, 0, 0, 0.75) 2px 20px 20px 5px;
+    position: relative;
+    top: -190px;
+    background-clip: content-box;
+  }
+  
+  .parentallogo {
+    width: 997px;
+    height: 213px;
+    position: absolute;
+    top: 52%;
+    left: 23%;
+  }
+  .machufun {
+  text-shadow: black 3px 3px 3px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: Microextend;
+  font-size: 290%;
+  }
+}
